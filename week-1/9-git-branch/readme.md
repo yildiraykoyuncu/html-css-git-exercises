@@ -108,3 +108,5 @@ Using this technique, try to successfully push your `green_links` branch.
 When you have successfully pushed both branches, you should see them in your GitHub repository. You can find them by clicking on the **Branch** button. Here's an example of what it should look like:
 
 ![Screenshot of branches list in GitHub](/images/9/github-branches.png)
+
+completed
