@@ -1,1 +1,41 @@
 /* Add your own CSS code below */
+
+#hearth {
+  color: #c85308;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-article p {
+  max-width: 50em;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  header.site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .views {
+    display: flex;
+  }
+  .views h2,
+  .views a {
+    margin-right: 10px;
+  }
+}

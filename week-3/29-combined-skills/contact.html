@@ -56,22 +56,44 @@
         <form method="GET" class="contact-form">
           <div class="contact-form__field">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required />
           </div>
           <div class="contact-form__field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="contact-form__field">
+            <label for="message">Message</label>
             <textarea
+              id="message"
               name="message"
               placeholder="Your message should not be longer than 200 words."
             ></textarea>
           </div>
+
+          <fieldset>
+            <legend>What branch are you interested in?</legend>
+            <div>
+              <input type="radio" name="london" id="london" value="london" />
+              <label for="london">London</label>
+            </div>
+            <div>
+              <input type="radio" name="glasgow" id="glasgow" value="glasgow" />
+              <label for="london">Glasgow</label>
+            </div>
+            <div>
+              <input type="radio" name="manchester" id="manchester" value="manchester" />
+              <label for="london">Manchester</label>
+            </div>
+          </fieldset>
           <button type="submit">Send</button>
         </form>
       </main>
 
       <footer>
         <p>
-          <a href="https://github.com/CodeYourFuture/html-css-git-exercises">Built</a>
-          with ♥ for <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
+          <a href="https://github.com/CodeYourFuture/html-css-git-exercises">Built</a> with ♥ for
+          <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
         </p>
         <p>
           <svg
